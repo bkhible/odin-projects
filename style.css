@@ -44,7 +44,7 @@ a.logo-link:hover {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 0 100px 100px 100px;
+    padding: 0 100px 50px 100px;
 }
 
 h1.hero-title { 
@@ -55,11 +55,11 @@ h1.hero-title {
 }
 
 .hero-container {
-    height: 400px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 0 100px 0;
+    padding: 90px 0 50px 0;
 }
 
 .hero-card1, .links {
@@ -74,7 +74,7 @@ h1.hero-title {
     gap: 15px;
 }
 
-button.hero-btn {
+.hero-btn {
     width: 130px;
     background-color: #3882F6;
     color: #E5E7EB;
@@ -85,8 +85,19 @@ button.hero-btn {
     border-radius: 7px;
 }
 
-.hero-btn a:visited {
+.btn-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-link:visited {
     color: #E5E7EB;
+}
+
+.btn-link:hover {
+    background-color: #2b6cd4;
+    cursor: pointer;
 }
 
 .hero-card2 {
@@ -103,6 +114,18 @@ button.hero-btn {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 0 150px 50px 150px;
+}
+
+.box1 {
+    display: flex;
+}
+
+.img-box1, .img-box2, .img-box3, .img-box4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+    border: 2px solid #3882F6;
 }
 
 .footer {
