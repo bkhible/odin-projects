@@ -10,13 +10,34 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 .hero {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding: 0 100px 100px 100px;
+}
+
+h1.hero-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container {
+    display: flex;
+    padding-top: 100px;
+}
+
+.hero-secondary {
+    width: 50%;
+}
+
+.hero-img {
+    background-color: lightslategray;
+    width: 50%;
+    height: 100%;
 }
 
 .content {
