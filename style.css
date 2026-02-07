@@ -7,11 +7,30 @@ body {
     margin: 0;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    font-size: 12px;
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+    padding: 15px;
 }
