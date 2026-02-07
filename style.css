@@ -20,12 +20,21 @@ a {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 600;
 }
 
 .links {
     display: flex;
+    gap: 30px;
 }
 
+.links a:visited {
+    color: #F9FAF8;
+}
+
+.links a:hover {
+    color: #f9faf89f;
+}
 
 .hero {
     background-color: #1F2937;
@@ -37,7 +46,7 @@ a {
 h1.hero-title { 
     font-size: 48px;
     color: #F9FAF8;
-    weight: 900;
+    font-weight: 900;
     padding: 0;
 }
 
