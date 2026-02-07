@@ -51,12 +51,14 @@ h1.hero-title {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    padding: 0;
+    margin: 0;
 }
 
 .hero-container {
+    height: 400px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 100px 0 100px 0;
 }
 
@@ -67,12 +69,23 @@ h1.hero-title {
 
 .hero-card1 {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button.hero-btn {
+    width: 130px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 7px;
 }
 
 .hero-card2 {
-    background-color: lightslategray;
     width: 50%;
-    height: 250px;
 }
 
 .hero-img {
