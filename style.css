@@ -79,9 +79,14 @@ button.hero-btn {
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: 500;
     padding: 10px 30px 10px 30px;
     border: none;
     border-radius: 7px;
+}
+
+.hero-btn a:visited {
+    color: #E5E7EB;
 }
 
 .hero-card2 {
