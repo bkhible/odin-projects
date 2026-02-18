@@ -28,12 +28,16 @@ a {
     gap: 30px;
 }
 
-.links a:visited, a.logo-link:visited {
+.links a, a:visited, a.logo-link:visited {
     color: #F9FAF8;
 }
 
 .links a:hover {
     color: #f9faf89f;
+}
+
+a.logo-link, a.logo-link:visited {
+    color: #F9FAF8;
 }
 
 a.logo-link:hover {
